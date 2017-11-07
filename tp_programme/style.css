@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+background: rgb(247, 223, 30);
+text-align: center;
+font-family: sans-serif;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.exercice {
+  font-size: 0;
+}
+
+.color {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 1%;
+}
+
+.color:nth-child(odd) {
+border-radius: 50%;
+}
+
+.btnColor {
+  width: 30%;
+  margin: 5%;
+  padding: 2%;
+  background: #000;
+  color: rgb(247, 223, 30);
+  box-shadow: 5px 5px 5px 0px #000000;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid rgb(247, 223, 30);
+}
